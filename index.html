@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <main>
+        <div id="header">
+            <header>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand ms-5" href="#"><img class="img-fluid" src="assets/img/logohi.svg"
+                                alt=""></a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto  ">
+                                <li class="nav-item ">
+                                    <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Galerie</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link">Contact</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex me-5 ms-5">
+                                <input class="form-control me-2" type="search" placeholder="Rechercher"
+                                    aria-label="Search">
+                                <button class="btn search" type="submit">Rechercher</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <section id="section1">
+                <h1>
+                    Votre site web clé en main
+                </h1>
+                <p>
+                    Envie d'un site web beau, efficace et qui répond à vos besoins ?
+                </p>
+                <div>
+                    <button class="btn btn-light bouton" type="button">Voir la Démo</button>
+                    <button class="btn btn-dark bouton" type="button">Continuer</button>
+                </div>
+            </section>
+        </div>
+        <section id="section2" class="container">
+            <h2 id="service">Services</h2>
+            <div class="row boite">
+                <div class="card" style="width: 19rem;">
+                    <img src="assets/img/2711176.jpg" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 class="card-title">Conception et design web</h5>
+                        <p class="card-text"> HI! met en place l'architecture complète de votre site, son arborescence,
+                            l'organisation et le design des pages. Bien sûr, tout ça en valorisant votre contenu et en
+                            respectant la charte graphique de votre marque. Enfin, sans oublier d'optimiser le parcours
+                            utilisateur</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 19rem;">
+                    <img src="assets/img/4361964.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Affichage "responsive"</h5>
+                        <p class="card-text">
+                            Saviez-vous que 61% des utilisateurs sont plus enclins à contacter une entreprise si
+                            celle-ci dispose d’un site ergonomique sur mobile ? HI! adapte le contenu de votre site
+                            internet aux différents supports connus (ordinateur, tablette et mobile) pour un site
+                            toujours au top!
+                        </p>
+                    </div>
+                </div>
+                <div class="card" style="width: 19rem;">
+                    <div class="cv">
+                        <img src="assets/img/3910534.jpg" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Maintenance</h5>
+                        <p class="card-text">
+                            Des mises à jour des outils utilisés pour concevoir les sites internet sont à prévoir.
+                            Autant pour bénéficier de nouvelles fonctionnalités que pour rester sécuritaire et robuste.
+                            Et c'est bien normal! HI! propose son service de maintenance pour les sites internet et
+                            leurs outils.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section3">
+            <h2 id="galerie">Galerie</h2>
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/img/4361964.jpg" class="d-block w-100 text-center" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/3917503.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/img/4553714.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <article>
+                <img src="assets/img/graphisme-1.svg" alt="">
+                <aside>
+                    <h3>
+                        Voir les projets
+                    </h3>
+                    <p>
+                        Création de sites internet, web design et maintenance de sites internet : site web vitrine, site
+                        e-commerce, pour particuliers, commerces, associations, organisations.
+                    </p>
+                    <p>
+                        Découvrir les différents projets
+                    </p>
+                </aside>
+            </article>
+        </section>
+        <section id="section4">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Question1
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Le pack Simple est le pack de démarrage et s'adresse à ceux qui souhaitent un site internet
+                            dit "vitrine" qui peut contenir jusqu'à 5 pages. Parfait pour les micro-entreprises et
+                            particuliers!
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Question 2
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium perferendis
+                            neque voluptatum? Voluptate consectetur sapiente adipisci amet eos eius voluptatum,
+                            aspernatur voluptas vitae blanditiis magni officiis impedit. Dicta, porro.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Question 3
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda sequi commodi recusandae
+                            consectetur, sapiente officia nihil quaerat at perferendis ipsa officiis temporibus rem
+                            delectus. Vero consequatur accusantium nisi ex officiis.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div id="fond">
+                <div class="construire">
+                    <p>Commencez à construire</p>
+                    <form class="d-flex me-5 ms-5">
+                        <input class="form-control me-2" type="search" placeholder="Rechercher" aria-label="Search">
+                        <button class="btn search" type="submit">Rechercher</button>
+                    </form>
+                </div>
+                <form action="" method="get">
+                    <label for="exampleInputEmail1" class="form-label"></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text"></div>
+                    <label for="exampleInputEmail1" class="form-label"></label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text"></div>
+                </form>
+            </div>
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

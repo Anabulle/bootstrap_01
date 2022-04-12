@@ -1,0 +1,155 @@
+:root{
+    --primary:#F3F5FB;
+    --secondary:#3755BE;
+    --tertiary: #F3F5FB;
+    --quartenary:#707070;
+}
+.navbar-brand img{
+    height: 2rem;
+    width: 2rem;
+}
+nav{
+ border-bottom: 1px solid var(--primary);
+}
+#header{
+    background-image: url("../img/graphisme-bg-header.svg");
+    background-size: cover;
+    height: 35rem;
+}
+
+.nav-link{
+    color: var(--primary)!important;
+}
+.search{
+    background-color: var(--primary)!important;
+    color: var(--secondary)!important;
+}
+.search:hover{
+    background-color: #3755BE!important;
+    color: var(--primary)!important;
+    border: 1px solid var(--primary);
+}
+.form-control{
+    background-color: var(--secondary)!important;
+    border: 1px solid var(--primary)!important;
+    color: var(--primary)!important;
+}
+.form-control::placeholder{
+    color: var(--primary)!important;
+}
+.nav-item{
+    margin-left: 2rem;
+}
+#section1{
+    width: 23rem;
+    margin: auto;
+    padding-top: 5rem;
+}
+h1,p{
+    color: var(--primary);
+    text-align: center;
+}
+h1{
+    font-weight: bold!important;
+    font-size: 3rem!important;
+}
+h2{
+    text-align: center;
+    font-weight: bold!important;
+    margin-bottom: 2rem!important;
+}
+h3{
+    font-weight: bold!important;
+    margin-bottom: 2rem!important;
+}
+#section1 p{
+    margin: 2rem!important;
+}
+#section1 div{
+    text-align: center;
+}
+.bouton{
+    width: 8rem;
+    font-weight: bold!important;
+}
+.bouton:first-of-type{
+    color: var(--secondary)!important;
+    margin-right: 1rem;
+}
+#section2{
+    margin-top: 2rem;
+}
+.boite{
+    display: flex;
+    justify-content: space-between;
+}
+#section2 div p{
+    color: black;
+    text-align: left;
+}
+.card{
+    border: none!important;
+}
+.carousel{
+    width: 50%;
+    margin: auto;
+}
+#section3{
+    background-color: var(--tertiary);
+}
+#section3 article{
+    display: flex;
+}
+article img{
+    width: 50%;
+    margin-left: 5rem;
+}
+article aside{
+    flex: 50%;
+    margin: 5rem;
+}
+article aside p{
+    color: black;
+    text-align: left;
+}
+article aside p:last-of-type{
+    font-weight: bold;
+}
+.accordion{
+    margin: 5rem;
+}
+.accordion button{
+    background-color: var(--tertiary)!important;
+}
+.accordion-item{
+    background-color: var(--tertiary)!important;
+}
+footer{
+    background-color: #1B1F3B;
+    height: 30rem;
+}
+#fond{
+    background-image: url("../img/separateur-bas-page.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 30rem;
+    padding-top: 2rem;
+}
+.construire{
+    display: flex;
+    justify-content: center;
+    background-image: url(../img/graphisme-projet.svg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 2rem;
+    margin: 2rem 5rem 5rem 5rem!important;
+}
+#fond form{
+    width: 700px;
+    margin: auto;
+}
+#fond form input{
+    background-color: #70707077!important;
+}
